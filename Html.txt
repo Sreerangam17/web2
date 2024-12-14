@@ -1,0 +1,392 @@
+index.html:
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width,initial-scale=1.0">
+        <title>Coding Platform</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2? family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="cap.png"></a>
+                <div class="content">
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="http://127.0.0.1:5500/TUTORIAL.html">TUTORIALS</a></li>
+                        <li><a href="http://127.0.0.1:5500/Challenges.html">CHALLENGES</a></li>
+                        <li><a href="http://127.0.0.1:5500/BLOG.html">BLOG</a></li>
+                        <li><a href="http://127.0.0.1:5500/contact.html">CONTACT</a></li>              
+                    </ul>
+                </div>
+            </nav>
+            <div class="text-box">
+                <h1>Coding Craft Academy</h1>
+                <P>Unleash your potential and level up your skills with our Coding Tutorials.
+                Join us today <br>and unlock a world of endless possibilities in the realm of coding.
+                </P>
+                <a href="" class="hero-btn">Visit Us To Know More</a>
+            </div>
+        </section>
+        <!-------  Course -------->
+        <section class="course">
+            <h1>Courses We Offer!</h1>
+            <div class="row">
+                <div class="course-col">
+                    <h3>Foundations of Coding</h3>
+                    <p>This would be aimed to beginners who are new to coding and programming concepts.Introduction to programming languages like 
+                        Python,Javascript or Java.Hands-on coding exercises and projects to build practical coding skills.Understanding algorithms
+                        and problem-solving techniques.
+                    </p>
+                </div>
+                <div class="course-col">
+                    <h3>Intermediate Coding Concepts </h3>
+                    <p>This could target users target who have some experience with coding and are looking to deepen their understanding of 
+                        advanced concepts. It covers the topic such as OOPS principle, DS and algorithms for more complex problem solving,WebDevelopment
+                        Technologies like HTML,CSS,Javascript, Database managements with SQL or noSQL ,Version control systems like Git.
+                    </p>
+                </div>
+                <div class="course-col">
+                    <h3>Specialized Coding Tracks </h3>
+                    <p>This course offers Specialized tracks in specific areas of coding and software development.Some tracks are WebDevelopment
+                        focussing on front-end and back-end(React,Angular,Node.js,Express), Data Science Track(Data analysis, machine learning),
+                        visualization using Python libraries(NumPy,Pandas,scikit-learn),Mobile development track like iOS(Swift) or Android(Java/Kotlin),
+                        Cross-platform framework like React Native or Flutter. 
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="cta">
+            <h1>Enroll For Our Various Online Courses<br>Anywhere From The World</h1>
+            <a href="" class="hero-btn">CONTACT US</a>
+        </section>
+        <section class="end">
+            <h4>About Us</h4>
+            <p>We are a dedicated team of coding enthusiasts striving to simplify complex concepts.Join us on our journey to unlock the world
+                of programming.
+            </p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made with by Easy Tutorials</p>
+        </section>
+    </body>
+</html>
+
+Tutorial.html:
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width,initial-scale=1.0">
+        <title>Coding Platform</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2? family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="cap.png"></a>
+            <div class="content">
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/index.html">HOME</a></li>
+                    <li><a href="">TUTORIALS</a></li>
+                    <li><a href="http://127.0.0.1:5500/Challenges.html">CHALLENGES</a></li>
+                    <li><a href="http://127.0.0.1:5500/BLOG.html">BLOG</a></li>
+                    <li><a href="http://127.0.0.1:5500/contact.html">CONTACT</a></li>              
+                </ul>
+            </div>
+        </nav>
+        <h1>THE ULTIMATE TUTORIAL PLATFORM</h1>
+        </section>
+        <section class="course">
+            <h1>Courses We Offer!</h1>
+            <div class="row">
+                <div class="course-col">
+                    <h3>Foundations of Coding</h3>
+                    <p>This would be aimed to beginners who are new to coding and programming concepts.Introduction to programming languages like 
+                        Python,Javascript or Java.Hands-on coding exercises and projects to build practical coding skills.Understanding algorithms
+                        and problem-solving techniques.
+                    </p>
+                </div>
+                <div class="course-col">
+                    <h3>Intermediate Coding Concepts </h3>
+                    <p>This could target users target who have some experience with coding and are looking to deepen their understanding of 
+                        advanced concepts. It covers the topic such as OOPS principle, DS and algorithms for more complex problem solving,WebDevelopment
+                        Technologies like HTML,CSS,Javascript, Database managements with SQL or noSQL ,Version control systems like Git.
+                    </p>
+                </div>
+                <div class="course-col">
+                    <h3>Specialized Coding Tracks </h3>
+                    <p>This course offers Specialized tracks in specific areas of coding and software development.Some tracks are WebDevelopment
+                        focussing on front-end and back-end(React,Angular,Node.js,Express), Data Science Track(Data analysis, machine learning),
+                        visualization using Python libraries(NumPy,Pandas,scikit-learn),Mobile development track like iOS(Swift) or Android(Java/Kotlin),
+                        Cross-platform framework like React Native or Flutter. 
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="end">
+            <h4>About Us</h4>
+            <p>We are a dedicated team of coding enthusiasts striving to simplify complex concepts.Join us on our journey to unlock the world
+                of programming.
+            </p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made with by Easy Tutorials</p>
+        </section>
+    </body>
+</html>
+
+Challenges.html:
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width,initial-scale=1.0">
+        <title>Coding Platform</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2? family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="cap.png"></a>
+                <div class="content">
+                    <ul>
+                        <li><a href="http://127.0.0.1:5500/index.html">HOME</a></li>
+                        <li><a href="http://127.0.0.1:5500/TUTORIAL.html">TUTORIALS</a></li>
+                        <li><a href="">CHALLENGES</a></li>
+                        <li><a href="http://127.0.0.1:5500/BLOG.html">BLOG</a></li>
+                        <li><a href="http://127.0.0.1:5500/contact.html">CONTACT</a></li>              
+                    </ul>
+                </div>
+            </nav>
+            <h1>CHALLENGE YOURSELF</h1>
+        </section>
+        <main class="cards"> 
+            <article class="card">
+                 <img src="algo.png" alt="Sample photo">
+                  <div class="text">
+                     <h3>Algorithmic Challenges</h3>
+                      <p>Challenge yourself to solve a variety of algorithmic
+                        problems on platforms like LeetCode, HackerRank, or CodeSignal. Practice 
+                        implementing data structures like linked lists, trees, graphs, and algorithms
+                         like sorting, searching, and dynamic programming.
+                      </p>
+                     <button>OFFERS</button>
+                 </div>
+            </article> 
+            <article class="card"> 
+                <img src="command-line.png" alt="Sample photo"> 
+                <div class="text"> 
+                    <h3>Build a Command-line Tool</h3> 
+                    <p>Develop a tool that performs a specific task, such as file manipulation,
+                    data processing, or system monitoring. Focus on handling user input, error handling,
+                     and creating a user-friendly experience through command-line interfaces.</p>
+                    <button>OFFERS</button> 
+                </div> 
+            </article> 
+            <article class="card">
+                <img src="open source.jfif" alt="Sample photo">
+                <div class="text"> 
+                    <h3>Contribute to Open Source Project</h3> 
+                    <p>Challenge yourself to contribute to open source projects on platforms like GitHub. 
+                        Find projects that align with your interests and skill level, and start by fixing bugs,
+                         adding documentation, or implementing new features.</p>
+                    <button>OFFERS</button>
+                </div> 
+            </article>
+            <article class="card">
+                <img src="web scraping.jfif" alt="Sample photo">
+                <div class="text">
+                    <h3>Develop a Web Scraping</h3> 
+                    <p>Explore frameworks like BeautifulSoup in Python, Puppeteer in JavaScript, or Scrapy
+                  in Python for scraping and parsing web content. Focus on handling different types of data,
+                   managing scraping sessions, and respecting website terms of service and robots.txt guidelines.
+                    </p>
+                    <button>OFFERS</button>
+                </div> 
+            </article>
+            <article class="card">
+                <img src="web design.jfif"alt="Sample photo"> 
+                <div class="text"> 
+                    <h3>Implement a Design Pattern</h3>
+                    <p>Challenge yourself to implement a design pattern in your codebase to improve its structure,
+                 readability, and maintainability. Study common design patterns like Singleton, Factory, Observer,
+                 or Decorator, and identify opportunities to apply them in your projects. </p>
+                    <button>OFFERS</button> 
+                </div>
+            </article> 
+        </main>
+    </body> 
+</html>
+
+Blog.html:
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width,initial-scale=1.0">
+        <title>Coding Platform</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2? family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="cap.png"></a>
+            <div class="content">
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/index.html">HOME</a></li>
+                    <li><a href="http://127.0.0.1:5500/TUTORIAL.html">TUTORIALS</a></li>
+                    <li><a href="http://127.0.0.1:5500/Challenges.html">CHALLENGES</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="http://127.0.0.1:5500/contact.html">CONTACT</a></li>              
+                </ul>
+            </div>
+        </nav>
+        <h1>Our Certificates & Online Programs for upcoming Batches</h1>
+        </section>
+        <section class="blog-content">
+            <div class="row">
+                <div class="blog-left">
+                    <img src="blog.jfif">
+                    <h2>Our Certificates & Online Programs for upcoming Batches</h2>
+                    <p>Exploring the Best Coding Tutorial Platforms:
+                        <br>
+                              Coding tutorial platforms serve as virtual classrooms, offering structured lessons and<br>
+                     hands-on projects designed to build your skills systematically. These platforms cater to a wide range of <br>
+                     programming languages such as Python, JavaScript, Java, and more, ensuring there's something <br>
+                     for everyone. We often provide interactive coding environments where you can practice coding <br> 
+                     in real-time, immediate feedback on your work, and forums to connect with a community of learners and experts alike.
+                     <br><br>
+                        Features to Look Out For:<br>
+
+                        When choosing a coding tutorial platform, consider features such as flexibility in learning paths,<br>
+                        quality of instructional content, and the availability of practical projects. Look for platforms <br>
+                        that offer a mix of text-based tutorials, video lectures, and interactive coding challenges<br>
+                        to cater to different learning preferences. Our platforms also provide certifications upon <br>
+                        completion of courses, which can be valuable for showcasing your skills to potential employers<br>
+                         or advancing your career in tech.
+                         <br>
+                         <br>
+                        Getting Started:<br>
+                        To begin your coding journey, start by exploring Coding Craft Academy, each offering unique<br>
+                         strengths depending on your learning style and goals. Set specific learning objectives<br>
+                        and milestones,the key to mastering coding lies in consistent practice and a willingness<br>
+                         to explore new concepts. With the right tutorial platform as your guide, you'll be well<br>
+                          on your way to becoming a proficient coder in no time.
+                        <br>
+                        <br>
+                        Whether you're aiming to build websites, develop mobile apps, or delve into data science, <br>
+                        the world of coding tutorial platforms awaits with boundless opportunities for learning and growth.<br>
+                         Dive in today and discover the power of coding to shape the future!</p>
+                    <div class="Comment-box">
+                        <h3>Leave a comment</h3>
+                        <form class="Comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="email" placeholder="Enter Email">
+                            <textarea rows="5" placeholder="Your Comment">
+                            </textarea>
+                            <button type="submit">POST COMMENTS</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="end">
+            <h4>About Us</h4>
+            <p>We are a dedicated team of coding enthusiasts striving to simplify complex concepts.Join us on our journey to unlock the world
+                of programming.
+            </p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made with by Easy Tutorials</p>
+        </section>
+    </body>
+</html>
+
+Contact.html:
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width,initial-scale=1.0">
+        <title>Coding Platform</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2? family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="cap.png"></a>
+            <div class="content">
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/index.html">HOME</a></li>
+                    <li><a href="http://127.0.0.1:5500/TUTORIAL.html">TUTORIALS</a></li>
+                    <li><a href="http://127.0.0.1:5500/Challenges.html">CHALLENGES</a></li>
+                    <li><a href="http://127.0.0.1:5500/BLOG.html">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>              
+                </ul>
+            </div>
+        </nav>
+        <h1>CONTACT US</h1>
+        </section>
+        <section class="contact-us">
+            <div class="row">
+                <div class="contact-col">
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <span>
+                            <h5>+91 8543635688</h5>
+                            <p>Monday to Saturday,10 AM to 6 PM</p>
+                        </span>
+                    </div><div>
+                        <i class="fa fa-envelope-o"></i>
+                        <span>
+                            <h5>CodingCraftAcademy.com </h5>
+                            <p>Email us for your Query</p>
+                        </span>
+                    </div>
+
+                </div>
+                <div class="contact-col">
+
+                </div>
+            </div>
+
+        </section>
+        <section class="end">
+            <h4>About Us</h4>
+            <p>We are a dedicated team of coding enthusiasts striving to simplify complex concepts.Join us on our journey to unlock the world
+                of programming.
+            </p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made with by Easy Tutorials</p>
+        </section>
+    </body>
+</html>
